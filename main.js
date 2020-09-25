@@ -2,7 +2,7 @@ function calcy()
 {
     var  wd = document.getElementById('wd').value;
     var  java = document.getElementById('java').value;
-    let c = document.getElementById('c').value;
+    var c = document.getElementById('c').value;
     var os = document.getElementById('os').value;
     var grades = "";
 
