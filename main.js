@@ -1,12 +1,12 @@
 function calcy()
 {
     var  wd = document.getElementById('wd').value;
-    var  maths = document.getElementById('maths').value;
-    let comp = document.getElementById('comp').value;
-    var phy = document.getElementById('phy').value;
+    var  java = document.getElementById('java').value;
+    let c = document.getElementById('c').value;
+    var os = document.getElementById('os').value;
     var grades = "";
 
-    var totalGrades = parseFloat(wd) + parseFloat(maths) + parseFloat(comp) + parseFloat(phy);
+    var totalGrades = parseFloat(wd) + parseFloat(java) + parseFloat(c) + parseFloat(os);
     var perc = (totalGrades/400) * 100;
 
     if(perc <= 100  && perc >= 80){
