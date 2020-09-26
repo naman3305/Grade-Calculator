@@ -8,7 +8,14 @@ function calcy()
 
     var totalGrades = parseFloat(wd) + parseFloat(java) + parseFloat(c) + parseFloat(os);
     var perc = (totalGrades/400) * 100;
-
+if(wd>100 ||java>100 || c>100 ||os>100 )
+{
+    alert("Marks can't exceed 100");
+    wd.innerHTML="";
+    java.innerHTML="";
+    c.innerHTML="";
+    os.innerHTML="";
+}
     if(perc <= 100  && perc >= 80){
         grades = 'A';
       }else if(perc <= 79  && perc >= 60){
