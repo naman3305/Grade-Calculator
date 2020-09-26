@@ -22,7 +22,7 @@ if(wd>100 ||java>100 || c>100 ||os>100 )
          grades = 'B';
       }else if(perc <= 59  && perc >= 40){
          grades = 'C';
-      }else{
+      }else if(perc=<39.5){
          grades = 'F';
       }
     
